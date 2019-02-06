@@ -176,12 +176,5 @@ for i in range(field_width):
 				Neighbour_field[i][j] = True # Клетка оживает
 
 A_field[i][j] = [[A_field[i][j] for i in range(field_width)] for j in range(field_lenght)]
-		
-		
-			
-
-# print(Neighbour_field)
-
-# print(A_field)
 
 graph_window.getMouse()
